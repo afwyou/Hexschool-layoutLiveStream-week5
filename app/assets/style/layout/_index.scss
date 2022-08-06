@@ -3,3 +3,20 @@
   font-size: 20px;
   font-weight: 400;
 }
+
+.nav {
+  width: 296px;
+  position: fixed;
+  height: 100vh;
+}
+
+.logo{
+  display: block;
+  width: 151px;
+  height: 40px;
+  background-image: url(../../images/logo-ANSWER.svg);
+  background-size: contain;
+  text-indent: 101%;
+  white-space: nowrap;
+  overflow: hidden;
+}
