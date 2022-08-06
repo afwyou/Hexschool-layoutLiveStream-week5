@@ -31,3 +31,32 @@
     vertical-align: middle;
   }
 }
+.main{
+  margin-left: 296px;
+  padding: 32px;
+}
+
+.list-group-container{
+  width: 320px;
+}
+.expand_more{
+  display: inline-block;
+}
+.expand_less{
+  display: none;
+}
+.collapsed .expand_less{
+ display: inline-block;
+}
+.collapsed .expand_more{
+display: none;
+}
+.list-group-item.active{
+  background: #F8F9FA ;
+  color: black;
+}
+
+.fs-7{
+  font-size: 12px;
+  line-height: 16px;
+}

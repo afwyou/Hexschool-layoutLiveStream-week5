@@ -4,3 +4,40 @@ layout: ./app/layout.ejs
 engine: ejs
 current: index
 ---
+
+<header>
+  <h1 class="mb-11">Assignment</h1>
+</header>
+<div class="list-group-container">
+  <p>
+    <a class="btn" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+      aria-controls="collapseExample">
+      All (4)
+      <span class="material-icons align-middle expand_more ms-2">
+        expand_more
+      </span>
+      <span class="material-icons align-middle expand_less ms-2">
+        expand_less
+      </span>
+    </a>
+  </p>
+  <div class="collapse" id="collapseExample">
+    <div class="list-group">
+      <a href="#" class="list-group-item list-group-item-action active p-3" aria-current="true">
+        <div class="fw-bold">
+          Chapter Assignment 2
+          <span class="fs-7 fw-normal">4 hrs ago</span>
+        </div>
+        <div class="fs-6">
+          Please check this file…
+          <span class="fs-7 ps-auto">Emily Wang</span>
+        </div>
+      </a>
+      <a href="#" class="list-group-item list-group-item-action">A second link item</a>
+      <a href="#" class="list-group-item list-group-item-action">A third link item</a>
+      <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+      <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">A disabled
+        link item</a>
+    </div>
+  </div>
+</div>
