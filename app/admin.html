@@ -46,7 +46,8 @@ current: index
       <td>emir.wicks@mail.com</td>
       <td>Yes</td>
       <td class="d-flex justify-content-end">
-        <span class="material-icons me-5 align-middle text-end">
+        <span class="material-icons me-5 align-middle text-end visibility" class="btn btn-primary"
+          data-bs-toggle="modal" data-bs-target="#exampleModal">
           visibility
         </span>
         <span class="material-icons align-middle text-end">
@@ -182,3 +183,51 @@ current: index
     </tr>
   </tbody>
 </table>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content p-8">
+
+      <div class="d-flex align-items-center">
+        <div class="flex-shrink-0">
+          <img src="./assets/images/emir.jpeg" height="141px" width="141px" alt="...">
+        </div>
+        <div class="flex-grow-1 ms-3">
+          <div class="d-flex justify-content-between">
+            <span>#1</span>
+            <span class="material-icons">
+              close
+            </span>
+          </div>
+          <h2 class="mb-0">
+            <span class="fs-6 fw-light">Admin</span>
+            <br>
+            Emir Wicks
+          </h2>
+          <span class="fs-7 fw-light text-secondary">emir.wicks@mail.com</span>
+          <p class="">
+            <a class="border-0 d-flex justify-content-between" data-bs-toggle="collapse" href="#collapseExample"
+              role="button" aria-expanded="false" aria-controls="collapseExample">
+              <span class="btn btn-light border-0 py-1 px-2">Verified</span>
+              <span class="material-icons align-middle expand_more ms-2">
+                expand_more
+              </span>
+              <span class="material-icons align-middle expand_less ms-2">
+                expand_less
+              </span>
+            </a>
+          </p>
+        </div>
+      </div>
+      <!-- collapse -->
+      <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+          Some placeholder content for the collapse component. This panel is hidden by default but revealed when the
+          user
+          activates the relevant trigger.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
