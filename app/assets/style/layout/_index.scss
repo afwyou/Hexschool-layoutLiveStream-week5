@@ -66,3 +66,12 @@ display: none;
 .assignment-card img{
   border-radius: 50%;
 }
+
+.nav-link.active::before{
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 32px;
+  left: 0;
+  background: #198754;
+}
