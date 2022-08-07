@@ -42,12 +42,12 @@ current: index
   <tbody>
     <tr>
       <th scope="row" class="fw-normal">#1</th>
-      <td>Emir Wicks</td>
+      <td class="pointer" data-bs-toggle="modal" data-bs-target="#exampleModal">Emir Wicks</td>
       <td>emir.wicks@mail.com</td>
       <td>Yes</td>
       <td class="d-flex justify-content-end">
-        <span class="material-icons me-5 align-middle text-end visibility" class="btn btn-primary"
-          data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <span class="material-icons me-5 align-middle text-end pointer" class="btn btn-primary" data-bs-toggle="modal"
+          data-bs-target="#exampleModal">
           visibility
         </span>
         <span class="material-icons align-middle text-end">
@@ -220,11 +220,11 @@ current: index
         </div>
       </div>
       <!-- collapse -->
-      <div class="collapse" id="collapseExample">
-        <div class="card card-body">
-          Some placeholder content for the collapse component. This panel is hidden by default but revealed when the
-          user
-          activates the relevant trigger.
+      <div class="collapse mt-4" id="collapseExample">
+        <div class="card card-body flex-row justify-content-end border-0">
+          <button type="button" class="btn btn-outline-danger">Deactivate</button>
+
+          <button type="button" class="btn ms-3 btn-success ">Edit</button>
         </div>
       </div>
     </div>
