@@ -38,6 +38,7 @@
 
 .list-group-container{
   width: 320px;
+  flex-shrink: 0;
 }
 .expand_more{
   display: inline-block;
@@ -59,4 +60,8 @@ display: none;
 .fs-7{
   font-size: 12px;
   line-height: 16px;
+}
+
+.assignment-card img{
+  border-radius: 50%;
 }
