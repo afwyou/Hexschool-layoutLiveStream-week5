@@ -62,6 +62,7 @@ $colors: (
   "cyan":       $cyan,
   "white":      $white,
   "gray":       $gray-600,
+  "gray-light": $gray-400,
   "gray-dark":  $gray-800
 ) !default;
 // scss-docs-end colors-map
@@ -1269,7 +1270,7 @@ $modal-header-padding-x:            $modal-inner-padding !default;
 $modal-header-padding:              $modal-header-padding-y $modal-header-padding-x !default; // Keep this for backwards compatibility
 
 $modal-sm:                          300px !default;
-$modal-md:                          500px !default;
+$modal-md:                          480px !default;
 $modal-lg:                          800px !default;
 $modal-xl:                          1140px !default;
 
